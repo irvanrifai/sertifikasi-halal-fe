@@ -2,351 +2,470 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title>Sertifikasi Halal</title>
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/awkafpay-logo.png" sizes="16x16" rel="icon">
+  <link href="assets/img/awkafpay-logo.png" sizes="16x16" rel="apple-touch-icon"> -->
+
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
   <!-- MDB -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- Container wrapper -->
-    <div class="container">
-      <!-- Toggle button -->
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
 
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Navbar brand -->
-        <a class="navbar-brand mt-2 mt-lg-1" href="javascript:void(0)">
-          <!-- <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo" loading="lazy" /> -->
-          <h4><span class="text-primary">Sertifikasi</span> <span class="text-warning">Halal</span></h4>
-        </a>
-        <!-- Left links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)">Contact</a>
-          </li>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="" class="logo d-flex align-items-center">
+        <!-- <img src="assets/img/awkafpay-logo.png" alt=""> -->
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <!-- <li><a class="nav-link scrollto active" href="#about">Home</a></li>
+          <li><a class="nav-link scrollto" href="#video">Video</a></li>
+          <li><a class="nav-link scrollto" href="#add-info-wa">Kontak</a></li>
+          <li><a class="nav-link scrollto" href="#register-awkafpay">Daftar</a></li>
+          <li><a class="nav-link scrollto" href="#register-workshop">Workshop</a></li> -->
         </ul>
-        <!-- Left links -->
-      </div>
-      <!-- Collapsible wrapper -->
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
 
-      <!-- Right elements -->
-      <div class="d-flex align-items-center">
-        <!-- Icon -->
-        <a class="text-reset me-3" href="javascript:void(0)">
-          <i class="fas fa-shopping-cart"></i>
-        </a>
-
-        <!-- Notifications -->
-        <div class="dropdown">
-          <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="javascript:void(0)" id="navbarDropdownMenuLink" role="button"
-            data-mdb-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-bell"></i>
-            <span class="badge rounded-pill badge-notification bg-danger">1</span>
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-            <li>
-              <a class="dropdown-item" href="javascript:void(0)">Some news</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="javascript:void(0)">Another news</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="javascript:void(0)">Something else here</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Avatar -->
-        <div class="dropdown">
-          <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="javascript:void(0)" id="navbarDropdownMenuAvatar"
-            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
-              alt="Black and White Portrait of a Man" loading="lazy" />
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
-            <li>
-              <a class="dropdown-item" href="javascript:void(0)">My profile</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="javascript:void(0)">Settings</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="javascript:void(0)">Logout</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- Right elements -->
     </div>
-    <!-- Container wrapper -->
-  </nav>
-  <!-- Navbar -->
+  </header>
+  <!-- End Header -->
 
-  <!-- Form start -->
-  <div class="container py-4">
-    <form action="javacript:void(0)" method="post">
-      <div class="row">
-        <h4 class="pb-2">Data Pelaku Halal<sup class="text-danger">*</sup></h4>
-        <div class="col">
-          <div class="form-outline">
-            <input type="text" id="form8Example1" class="form-control" />
-            <label class="form-label" for="form8Example1">Nama Lengkap<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col">
-          <div class="form-outline">
-            <input type="email" id="form8Example2" class="form-control" />
-            <label class="form-label" for="form8Example2">Email<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col">
-          <div class="form-outline">
-            <input type="text" id="form8Example2" class="form-control" />
-            <label class="form-label" for="form8Example2">No. Telpon / Whatsapp<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col">
-          <div class="form-outline">
-            <input type="text" name="nik" id="" class="form-control">
-            <label for="nik" class="form-label">NIK<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col">
-          <div class="form-outline">
-            <input type="text" name="jenis-usaha" id="" class="form-control">
-            <label for="jenis-usaha" class="form-label">Jenis Usaha<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col">
-          <div class="form-outline">
-            <input type="text" name="nib" id="" class="form-control">
-            <label for="nib" class="form-label">NIB<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col-lg-5">
-          <div class="form-outline">
-            <input type="text" name="nama-pabrik" id="" class="form-control">
-            <label for="nama-pabrik" class="form-label">Nama Pabrik<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col-lg-7">
-          <div class="form-outline">
-            <input type="text" name="alamat-pabrik" id="" class="form-control">
-            <label for="alamat-pabrik" class="form-label">Alamat Pabrik<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col-lg-5">
-          <div class="form-outline">
-            <input type="text" name="nama-outlet" id="" class="form-control">
-            <label for="nama-outlet" class="form-label">Nama outlet<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col-lg-7">
-          <div class="form-outline">
-            <input type="text" name="alamat-outlet" id="" class="form-control">
-            <label for="alamat-outlet" class="form-label">Alamat outlet<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col-lg-4">
-          <div class="form-outline">
-            <input type="text" name="nama-penyelia-halal" id="" class="form-control">
-            <label for="nama-penyelia-halal" class="form-label">Nama Penyelia Halal<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="form-outline">
-            <input type="text" name="no-ktp-penyelia-halal" id="" class="form-control">
-            <label for="no-ktp-penyelia-halal" class="form-label">No KTP Penyelia Halal<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div>
-            <div class="d-flex justify-content-center mb-4">
-                <img src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg"
-                alt="example placeholder" class="img-fluid" style="width: 250px;" />
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="btn btn-sm btn-outline-primary btn-rounded">
-                    <label class="form-label text-primary m-1" for="customFile1">Upload Foto KTP Penyelia<sup class="text-danger">*</sup></label>
-                    <input type="file" class="form-control d-none" id="customFile1" />
+  <main id="main" class="main pt-4">
+
+    <!-- ======= F.A.Q Section ======= -->
+
+    <!-- start copywriting section -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <header class="section-header">
+            <div class="row g-0">
+              <div class="col-lg-6">
+                <div data-aos="zoom-out" data-aos-delay="200">
+                  <img src="assets/img/swakarta-logo.png" class="img-fluid" alt="" style="max-width: 30px; min-width: 200px; height: auto;">
                 </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col-lg-4">
-          <div class="form-outline">
-            <input type="text" name="no-telp-penyelia-halal" id="" class="form-control">
-            <label for="no-telp-penyelia-halal" class="form-label">No Telpon / Whatsapp Penyelia Halal<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="form-outline">
-            <input type="text" name="no-sk" id="" class="form-control">
-            <label for="no-sk" class="form-label">Nomor SK<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="form-outline">
-            <input type="date" name="tanggal-sk" id="" class="form-control">
-            <label for="tanggal-sk" class="form-label">Tanggal SK<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col-lg-4">
-          <div class="form-outline">
-            <input type="text" name="bahan-pebuat-produk" id="" class="form-control">
-            <label for="bahan-pebuat-produk" class="form-label">Bahan Pebuat Produk<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="form-outline">
-            <input type="text" name="bahan-cleaning-agent" id="" class="form-control">
-            <label for="bahan-cleaning-agent" class="form-label">Bahan Cleaning Agent<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="form-outline">
-            <input type="text" name="kemasan" id="" class="form-control">
-            <label for="kemasan" class="form-label">Kemasan<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col-lg-4">
-          <div>
-            <div class="d-flex justify-content-center mb-4">
-                <img src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg"
-                alt="example placeholder" class="img-fluid" style="width: 250px;" />
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="btn btn-sm btn-outline-primary btn-rounded">
-                    <label class="form-label text-primary m-1" for="customFile1">Upload Foto Produk<sup class="text-danger">*</sup></label>
-                    <input type="file" class="form-control d-none" id="customFile1" />
+              </div>
+              <div class="col-lg-6">
+                <div data-aos="zoom-out" data-aos-delay="200">
+                  <img src="assets/img/logo-halal-indonesia.png" class="img-fluid" alt="" style="max-width: 20px; min-width: 140px; height: auto;">
                 </div>
+              </div>
+            </div>
+          </header>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+              <div class="content">
+                <h1><strong>Masih Bingung Cara Mengurus Sertifikasi Halal?</span></strong></h1>
+                <h3 style="color: black;">Silahkan mengisi Data Pengajuan Sertifikasi Halal di bawah ini dan Konsultan Halal SWAKARTA® akan membantu dan mendampingi Anda dalam melakukan pendaftaran Sertifikasi Halal bagi Produk Anda.</h3>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="form-outline">
-            <input type="text" name="proses-produk-halal" id="" class="form-control">
-            <label for="proses-produk-halal" class="form-label">Proses Produk Halal<sup class="text-danger">*</sup></label>
-          </div>
-        </div>
-      </div>
-  
-      <hr />
-  
-      <div class="row">
-        <h4>Isian Pertanyaan Halal<sup class="text-danger">*</sup></h4>
-        <div class="col">
-          <!-- Question input -->
-          <div class="form-group">
-            <label class="form-label" for="form8Example3">Pertanyaan 1</label>
-            <input type="text" id="form8Example3" class="form-control" placeholder="Jawaban 1"/>
-          </div>
-        </div>
-        <div class="col">
-          <!-- Question input -->
-          <div class="form-group">
-            <label class="form-label" for="form8Example3">Pertanyaan 2</label>
-            <input type="text" id="form8Example3" class="form-control" placeholder="Jawaban 2"/>
-          </div>
-        </div>
-        <div class="col">
-          <!-- Question input -->
-          <div class="form-group">
-            <label class="form-label" for="form8Example3">Pertanyaan 3</label>
-            <input type="text" id="form8Example3" class="form-control" placeholder="Jawaban 3"/>
-          </div>
-        </div>
-        <div class="col">
-          <!-- Question input -->
-          <div class="form-group">
-            <label class="form-label" for="form8Example3">Pertanyaan 4</label>
-            <input type="text" id="form8Example3" class="form-control" placeholder="Jawaban 4"/>
-          </div>
-        </div>
-      </div>
-  
-      <hr />
-  
-      <div class="row">
-        <h4>Isian Kuisioner Halal<sup class="text-danger">*</sup></h4>
-        <div class="col">
-          <!-- Kuisioner input -->
-          <div class="form-group">
-            <label class="form-label" for="form8Example3">Kuisioner 1</label>
-            <input type="text" id="form8Example3" class="form-control" />
-          </div>
-        </div>
-        <div class="col">
-          <!-- Kuisioner input -->
-          <div class="form-group">
-            <label class="form-label" for="form8Example3">Kuisioner 2</label>
-            <input type="text" id="form8Example3" class="form-control" />
-          </div>
-        </div>
-        <div class="col">
-          <!-- Kuisioner input -->
-          <div class="form-group">
-            <label class="form-label" for="form8Example3">Kuisioner 3</label>
-            <input type="text" id="form8Example3" class="form-control" />
-          </div>
-        </div>
-        <div class="col">
-          <!-- Kuisioner input -->
-          <div class="form-group">
-            <label class="form-label" for="form8Example5">Kuisioner 4</label>
-            <input type="text" id="form8Example5" class="form-control" />
-          </div>
+
         </div>
       </div>
 
-      <div class="row">
-        <div class="col">
-          <div class="d-flex justify-content-end pt-5">
-            <button type="button" onclick="this.form.reset();" class="btn btn-outline-danger btn-lg">Reset all</button>
-            <button type="button" onclick="location.href='after-submit.html'" class="btn btn-primary btn-lg ms-2">Submit form</button>
+    </section>
+    <!-- end copywriting section -->
+
+    <!-- start scroll-to-video section -->
+    <section id="scroll-to-video" class="about">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header bg-light p-4">
+          <h2 style="font-family: Arial;"><strong>KHUSUS HALAL SELF DECLARE ASSESSMENT</strong></h2>
+          <h4 style="color: black;">Gratis untuk 1.000.000 Produk</h4>
+          <!-- <div class="text-center text-lg-center pt-4">
+            <a href="#video" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+              <span>Next</span>
+              <i class="bi bi-caret-down-square-fill"></i>
+            </a>
+          </div> -->
+        </header>
+      </div>
+    </section>
+    <!-- end scroll-to-video section -->
+    
+    <!-- section video short -->
+    <!-- <section id="video" class="video">
+      <div class="row p-4 d-flex justify-content-center">
+
+        <header class="section-header py-1">
+          <h2><strong>Yuk, Temukan Solusinya di Video Singkat ini</strong></h2>
+          <h4 class="pb-3">Video ini hanya 8 menit, tapi 8 menit itu dapat merubah saldo rekening Anda..</h4>
+        </header>
+
+        <div class="col-md-10 p-2">
+          <div class="ratio ratio-16x9" style="border-radius: 7px; overflow: hidden;">
+            <iframe src="https://www.youtube.com/embed/rdq4eaqKdnc" title="SHORT PREVIEW PELUANG BISNIS AGEN AWKAFPAY™" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- end video section -->
+
+    <!-- start after-video section -->
+    <section id="after-video" class="about">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gx-0">
+          <!-- <div class="col-lg-4 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/from-ppt12.png" class="img-fluid" alt="" style="max-width: 200px; min-width: 100px; height: auto;">
+          </div> -->
+
+          <div class="col-lg-12 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h2 style="color: black;">SELF ASSESSMENT</h2>
+              <h3 style="color: black;">Silahkan mengisi Data Usaha dan Data Produk yang akan diajukan Sertifikasi Halal berikut ini dan Konsultan Halal SWAKARTA® akan melakukan verifikasi dan validasi dalam waktu 24 jam untuk proses Sertifikasi Halal Self Declare.</h3>
+              <form action="javacript:void(0)" method="post">
+                <div class="row p-4 pb-0">
+                  <div class="card p-4">
+                    <div class="card-title">
+                      <h2>
+                        Data Pelaku Halal
+                      </h2>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div>
+                          <div class="d-flex justify-content-center mb-4">
+                              <img src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg"
+                              alt="example placeholder" class="img-fluid" style="width: 200px;" />
+                          </div>
+                          <div class="d-flex justify-content-center">
+                              <div class="btn btn-sm btn-outline-primary btn-rounded">
+                                  <label class="form-label text-primary m-1" for="customFile1">Upload Foto KTP<sup class="text-danger">*</sup></label>
+                                  <input type="file" class="form-control d-none" id="customFile1" />
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div class="card-body">
+                          <div class="card-text">
+                            <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                <div class="form-outline">
+                                  <input type="text" id="form8Example1" class="form-control" />
+                                  <label class="form-label" for="form8Example1">Nama Lengkap<sup class="text-danger">*</sup></label>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                <div class="form-outline">
+                                  <input type="text" name="nik" id="" class="form-control">
+                                  <label for="nik" class="form-label">NIK<sup class="text-danger">*</sup></label>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                <div class="form-outline">
+                                  <input type="email" id="form8Example2" class="form-control" />
+                                  <label class="form-label" for="form8Example2">Email<sup class="text-danger">*</sup></label>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
+                                <div class="form-outline">
+                                  <input type="text" id="form8Example2" class="form-control" />
+                                  <label class="form-label" for="form8Example2">No. Telpon / Whatsapp<sup class="text-danger">*</sup></label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row p-4 pb-0">
+                  <div class="card p-4">
+                    <div class="card-title">
+                      <h2>
+                        Data Usaha
+                      </h2>
+                    </div>
+                    <div class="row">
+                      <div class="card-body">
+                        <div class="card-text">
+                          <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-4">
+                              <div class="form-outline">
+                                <input type="text" name="nama-usaha" id="nama-usaha" class="form-control" />
+                                <label class="form-label" for="nama-usaha">Nama Usaha<sup class="text-danger">*</sup></label>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 pb-4">
+                              <div class="form-outline">
+                                <input type="text" name="alamat-usaha" id="alamat-usaha" class="form-control">
+                                <label for="alamat-usaha" class="form-label">Alamat Usaha<sup class="text-danger">*</sup></label>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                              <div class="form-outline">
+                                <input type="text" name="jenis-usaha" id="jenis-usaha" class="form-control" />
+                                <label class="form-label" for="jenis-usaha">Jenis Usaha<sup class="text-danger">*</sup></label>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                              <div class="form-outline">
+                                <input type="text" name="nib" id="" class="form-control">
+                                <label for="nib" class="form-label">NIB <sup class="text-muted">(jika sudah memiliki)</sup></label>
+                              </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                              <div class="form-outline">
+                                <input type="text" name="bahan-cleaning-agent" id="bahan-cleaning-agent" class="form-control">
+                                <label for="bahan-cleaning-agent" class="form-label">Bahan Cleaning Agent<sup class="text-danger">*</sup></label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="row p-4 pb-0">
+                  <div class="card p-4">
+                    <div class="card-title">
+                      <h2>
+                        Data Produk
+                      </h2>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="card bg-secondary bg-opacity-10">
+                          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="assets/img/benefit.jpeg" class="img-thumbnail"/>
+                            <a href="#!" class="text-decoration-none">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"><span class="text-muted">Change Photo</span></div>
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <div class="card-text">
+                              <div class="row">
+                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb-4">
+                                  <div class="form-outline">
+                                    <input type="text" name="nama-usaha" id="nama-usaha" class="form-control" />
+                                    <label class="form-label" for="nama-usaha">Nama Usaha<sup class="text-danger">*</sup></label>
+                                  </div>
+                                </div>
+                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 pb-4">
+                                  <div class="form-outline">
+                                    <input type="text" name="alamat-usaha" id="alamat-usaha" class="form-control">
+                                    <label for="alamat-usaha" class="form-label">Alamat Usaha<sup class="text-danger">*</sup></label>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                  <div class="form-outline">
+                                    <input type="text" name="jenis-usaha" id="jenis-usaha" class="form-control" />
+                                    <label class="form-label" for="jenis-usaha">Jenis Usaha<sup class="text-danger">*</sup></label>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                  <div class="form-outline">
+                                    <input type="text" name="nib" id="" class="form-control">
+                                    <label for="nib" class="form-label">NIB <sup class="text-muted">(jika sudah memiliki)</sup></label>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-4">
+                                  <div class="form-outline">
+                                    <input type="text" name="bahan-cleaning-agent" id="bahan-cleaning-agent" class="form-control">
+                                    <label for="bahan-cleaning-agent" class="form-label">Bahan Cleaning Agent<sup class="text-danger">*</sup></label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="row">
+                  <div class="col">
+                    <div class="d-flex justify-content-end pt-5">
+                      <button type="button" onclick="this.form.reset();" class="btn btn-outline-danger btn-lg">Reset all</button>
+                      <button type="button" onclick="location.href='after-submit.html'" class="btn btn-primary btn-lg ms-2">Submit form</button>
+                    </div>
+                  </div>
+                </div>
+          
+              </form>
+            </div>
+          </div>
+
         </div>
       </div>
 
-    </form>
-  </div>
+    </section>
+    <!-- end after-video section -->
 
-  <!-- Form End -->
+    <!-- start add info-wa section -->
+    <section id="add-info-wa" class="about">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row flex-column-reverse flex-md-row gx-0">
+          
+          <div class="col-lg-9 pull-right d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <header class="section-header">
+                <h2>Kontak</h2>
+              </header>
+              <h2 style="color: #012970;">Masih Ingin Meningkatkan Ketrampilan Bisnis?</h2>
+              <h3 style="color: black;">SWAKARTA® “Hub Hulu – Hilir Halal” menyediakan kelas – kelas pelatihan bisnis secara rutin baik secara online maupun offline untuk meningkatkan kapasitas dan ketrampilan bisnis Anda.</h3>
+              <h3 style="color: black;">Dapatkan Jadwal Diklat Bisnis selengkapnya dengan menghubungi Konsultan Halal SWAKARTA®</h3>
+              <div class="text-center text-lg-start pt-4">
+                <h2 style="color: #012970;">Ingin Tahu Jadwal Kelas Bisnis?</h2>
+                <a href="https://wa.me/628112639118" target="_blank" class="btn-wa d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Whatsapp</span>
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/from-ppt14.png" class="img-fluid" alt="" style="max-width: 180px; min-width: 80px; height: auto;">
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- end add info-wa section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2 class="text-dark">Support by</h2>
+        </header>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/yhji.png" class="img-fluid" alt="" style="min-width: 100px;"></div>
+            <div class="swiper-slide"><img src="assets/img/insani-logo.png" class="img-fluid" alt="" style="min-width: 100px;"></div>
+            <div class="swiper-slide"><img src="assets/img/pasifamal.png" class="img-fluid" alt="" style="min-width: 100px;"></div>
+            <div class="swiper-slide"><img src="assets/img/komunitas-pasifamal.png" class="img-fluid" alt="" style="min-width: 100px;"></div>
+            <div class="swiper-slide"><img src="assets/img/bpjph-logo-2.png" class="img-fluid pe-5" alt="" style="min-width: 185px; max-width: 185px; height: auto;"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </section>
+    <!-- End Clients Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-1">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="" class="d-flex align-items-center">
+              <img src="assets/img/swakarta-logo.png"  style="max-height: 100px;" alt="">
+            </a>
+            <div class="social-links mt-3">
+              <a href="https://www.youtube.com/results?search_query=swakarta" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a>
+              <a href="https://www.instagram.com/#" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://twitter.com/search?q=swakarta&src=recent_search_click" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+            </div>  
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              WAQF SQUARE <br>
+              Jl. Kusumanegara 284B, Rejowinangun, Kotagede<br>
+              Yogyakarta <br><br>
+              <strong>Phone :</strong> 0811 283 6553<br>
+              <strong>Email :</strong> swakarta.id@gmail.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SertifikasiHalal</span></strong> 2023. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- helper js -->
+  <script src="assets/js/owl-carousel.js"></script>
 
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+
 </body>
 
 </html>
