@@ -2545,3 +2545,28 @@ section {
 .order-tracking:first-child:before{display: none;}
 .order-tracking.completed:before{background-color: #4154f1;}
 /* tracking end */
+
+/* logo 2 */
+@media (min-width: 802px) and (max-width: 2000px) {
+  .img-r{
+    height:170px;
+    width:auto;
+    object-fit:contain;
+  }
+}
+
+@media (min-width : 200px) and (max-width : 650px) {
+  .img-r{
+    height:100px;
+    width:auto;
+    object-fit:contain;
+  }
+}
+
+@media (min-width : 10px) and (max-width : 200px) {
+  .img-r{
+    height:60px;
+    width:auto;
+    object-fit:contain;
+  }
+}

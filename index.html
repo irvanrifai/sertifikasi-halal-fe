@@ -75,7 +75,15 @@
         <div class="row gx-0">
 
           <header class="section-header">
-            <div class="row g-0">
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <img src="assets/img/swakarta-logo.png" class="img-fluid img-r" alt="" style="max-width: 30px; min-width: 180px; height: auto;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <img src="assets/img/logo-halal-indonesia.png" class="img-fluid img-r" alt="" style="max-width: 17px; min-width: 115px; height: auto;">
+                </div>
+            </div>
+            <!-- <div class="row g-0">
               <div class="col-lg-6">
                 <div data-aos="zoom-out" data-aos-delay="200">
                   <img src="assets/img/swakarta-logo.png" class="img-fluid" alt="" style="max-width: 30px; min-width: 200px; height: auto;">
@@ -86,7 +94,7 @@
                   <img src="assets/img/logo-halal-indonesia.png" class="img-fluid" alt="" style="max-width: 20px; min-width: 140px; height: auto;">
                 </div>
               </div>
-            </div>
+            </div> -->
           </header>
 
           <div class="row">
@@ -159,7 +167,7 @@
                   <div class="card p-4">
                     <div class="card-title">
                       <h2>
-                        Data Pelaku Halal
+                        Data Pelaku Halal<sup class="text-danger">*</sup>
                       </h2>
                     </div>
                     <div class="row">
@@ -217,7 +225,7 @@
                   <div class="card p-4">
                     <div class="card-title">
                       <h2>
-                        Data Usaha
+                        Data Usaha<sup class="text-danger">*</sup>
                       </h2>
                     </div>
                     <div class="row">
@@ -265,17 +273,32 @@
                   <div class="card p-4">
                     <div class="card-title">
                       <h2>
-                        Data Produk
+                        Data Produk<sup class="text-danger">*</sup>
                       </h2>
                     </div>
                     <div class="row">
-                      <div class="col-lg-6">
-                        <div class="card bg-secondary bg-opacity-10">
-                          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="assets/img/benefit.jpeg" class="img-thumbnail"/>
-                            <a href="#!" class="text-decoration-none">
-                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"><span class="text-muted">Change Photo</span></div>
-                            </a>
+                      <div class="col-lg-6 pb-4">
+                        <div class="card bg-secondary bg-opacity-25">
+                          <div class="card-header">Produk 1<sup class="text-danger">*</sup></div>
+                          <div class="p-4">
+                            <div class="card" style="height: 16rem; max-width: 20rem;">
+                              <div class="card-body">
+                                <div class="card-text">
+                                  <label class="form-label" for="">Foto Produk</label>
+                                </div>
+                                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                  <img src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg" class="img-thumbnail" style="height: auto; width: 14rem;">
+                                  <a href="javascript:void(0)" class="text-decoration-none">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                      <div class="badge badge-light">
+                                          <label class="form-label text-muted m-1" for="customFile1">Change Photo</label>
+                                          <input type="file" class="form-control d-none" id="customFile1" />
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                           <div class="card-body">
                             <div class="card-text">
@@ -309,13 +332,28 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-lg-6">
-                        <div class="card bg-secondary bg-opacity-10">
-                          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="assets/img/benefit.jpeg" class="img-thumbnail"/>
-                            <a href="#!" class="text-decoration-none">
-                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"><span class="text-muted">Change Photo</span></div>
-                            </a>
+                      <div class="col-lg-6 pb-4">
+                        <div class="card bg-secondary bg-opacity-25">
+                          <div class="card-header">Produk 2</div>
+                          <div class="p-4">
+                            <div class="card" style="height: 16rem; max-width: 20rem;">
+                              <div class="card-body">
+                                <div class="card-text">
+                                  <label class="form-label" for="">Foto Produk</label>
+                                </div>
+                                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                  <img src="https://mdbootstrap.com/img/Photos/Others/placeholder.jpg" class="img-thumbnail" style="height: auto; width: 14rem;">
+                                  <a href="#!" class="text-decoration-none">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                      <div class="badge badge-light">
+                                        <label class="form-label text-muted m-1" for="customFile1">Change Photo</label>
+                                        <input type="file" class="form-control d-none" id="customFile1" />
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                           <div class="card-body">
                             <div class="card-text">
@@ -323,25 +361,25 @@
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
                                   <div class="form-outline">
                                     <input type="text" name="nama-produk" id="nama-produk" class="form-control" />
-                                    <label class="form-label" for="nama-produk">Nama Produk<sup class="text-danger">*</sup></label>
+                                    <label class="form-label" for="nama-produk">Nama Produk</label>
                                   </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-4">
                                   <div class="form-outline">
                                     <input type="text" name="bahan-kemasan" id="bahan-kemasan" class="form-control">
-                                    <label for="bahan-kemasan" class="form-label">Bahan Kemasan<sup class="text-danger">*</sup></label>
+                                    <label for="bahan-kemasan" class="form-label">Bahan Kemasan</label>
                                   </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-4">
                                   <div class="form-outline">
                                     <textarea class="form-control" name="bahan-produk" id="bahan-produk" rows="2"></textarea>
-                                    <label class="form-label" for="bahan-produk">Bahan Produk<sup class="text-danger">*</sup></label>
+                                    <label class="form-label" for="bahan-produk">Bahan Produk</label>
                                   </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb-4">
                                   <div class="form-outline">
                                     <textarea class="form-control" name="proses-pembuatan" id="proses-pembuatan" rows="2"></textarea>
-                                    <label class="form-label" for="proses-pembuatan">Proses Pembuatan<sup class="text-danger">*</sup></label>
+                                    <label class="form-label" for="proses-pembuatan">Proses Pembuatan</label>
                                   </div>
                                 </div>
                               </div>
@@ -353,7 +391,7 @@
                   </div>
                 </div>
           
-                <div class="row">
+                <div class="row p-4">
                   <div class="col">
                     <div class="d-flex justify-content-end pt-5">
                       <button type="button" onclick="this.form.reset();" class="btn btn-outline-danger btn-lg">Reset all</button>
@@ -378,6 +416,10 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row flex-column-reverse flex-md-row gx-0">
+      
+          <div class="col-lg-3 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/from-ppt14.png" class="img-fluid" alt="" style="max-width: 180px; min-width: 80px; height: auto;">
+          </div>
           
           <div class="col-lg-9 pull-right d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
@@ -396,16 +438,32 @@
               </div>
             </div>
           </div>
-          
-          <div class="col-lg-3 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/from-ppt14.png" class="img-fluid" alt="" style="max-width: 180px; min-width: 80px; height: auto;">
-          </div>
 
         </div>
       </div>
 
     </section>
     <!-- end add info-wa section -->
+
+    <!-- start logo button section -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+          <header class="section-header">
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <img src="assets/img/swakarta-logo.png" class="img-fluid img-r" alt="" style="max-width: 25px; min-width: 180px; height: auto;">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <img src="assets/img/logo-halal-indonesia.png" class="img-fluid img-r" alt="" style="max-width: 12px; min-width: 115px; height: auto;">
+                </div>
+            </div>
+          </header>
+        </div>
+      </div>
+
+    </section>
+    <!-- end logo button section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
