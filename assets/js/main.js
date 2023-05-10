@@ -160,10 +160,10 @@
    * Clients Slider
    */
   new Swiper('.clients-slider', {
-    speed: 400,
+    speed: 500,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -179,15 +179,15 @@
       },
       480: {
         slidesPerView: 3,
-        spaceBetween: 60
+        spaceBetween: 47
       },
       640: {
         slidesPerView: 4,
-        spaceBetween: 80
+        spaceBetween: 60
       },
       992: {
-        slidesPerView: 6,
-        spaceBetween: 120
+        slidesPerView: 5,
+        spaceBetween: 117
       }
     }
   });
