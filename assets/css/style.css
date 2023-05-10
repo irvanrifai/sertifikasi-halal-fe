@@ -2547,26 +2547,89 @@ section {
 /* tracking end */
 
 /* logo 2 */
-@media (min-width: 802px) and (max-width: 2000px) {
+/* @media (min-width: 802px) and (max-width: 2000px) {
   .img-r{
-    height:170px;
+    height:15rem;
     width:auto;
-    object-fit:contain;
+    object-fit:fill;
   }
 }
 
-@media (min-width : 200px) and (max-width : 650px) {
+@media (min-width : 401px) and (max-width : 800px) {
   .img-r{
-    height:100px;
+    height:10rem;
     width:auto;
-    object-fit:contain;
+    object-fit:fill;
   }
 }
 
-@media (min-width : 10px) and (max-width : 200px) {
+@media (max-width : 400px) {
   .img-r{
-    height:60px;
+    height:5rem;
     width:auto;
-    object-fit:contain;
+    object-fit:fill;
+  }
+} */
+
+@media (min-width:120px)  {
+  /* smartphones, iPhone, portrait 480x320 phones */ 
+  .img-r{
+    height:2rem;
+    width:auto;
+    /* object-fit:fill; */
+  } 
+}
+
+@media (min-width:320px)  {
+  /* smartphones, iPhone, portrait 480x320 phones */ 
+  .img-r{
+    height:3rem;
+    width:auto;
+    /* object-fit:fill; */
+  } 
+}
+
+@media (min-width:481px)  { 
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  .img-r{
+    height:4rem;
+    width:auto;
+    /* object-fit:fill; */
+  }
+}
+
+@media (min-width:641px)  {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+  .img-r{
+    height:6rem;
+    width:auto;
+    /* object-fit:fill; */
+  }
+}
+
+@media (min-width:961px)  {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .img-r{
+    height:8rem;
+    width:auto;
+    /* object-fit:fill; */
+  }
+}
+
+@media (min-width:1025px) { 
+  /* big landscape tablets, laptops, and desktops */ 
+  .img-r{
+    height:10rem;
+    width:auto;
+    /* object-fit:fill; */
+  }
+}
+
+@media (min-width:1281px) {
+  /* hi-res laptops and desktops */ 
+  .img-r{
+    height:12rem;
+    width:auto;
+    /* object-fit:fill; */
   }
 }
